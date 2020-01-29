@@ -5,7 +5,7 @@ This is the final integrated project for semester two at Fanshawe College. The i
 * **Ariana Blake** (https://github.com/ariblake)
 * **Sarah Conway** (https://github.com/sarahconway69704)
 * **Hillary Strong** (https://github.com/hillary25)
-* **Ryan(Anqi) Sun** (https://github.com/unscientifi)
+* **Ryan (Anqi) Sun** (https://github.com/unscientifi)
 * **Yasmina Tavares** (https://github.com/yasminamayot)
 
 ## Built With
