@@ -3,7 +3,7 @@ This is the final integrated project about HIV&ADIS at Fanshawe College. The int
 
 ## Author
 * **Ariana Blake** (https://github.com/ariblake)
-* **Sarah Strong** (https://github.com/sarahconway69704)
+* **Sarah Conway** (https://github.com/sarahconway69704)
 * **Hillary Strong** (https://github.com/hillary25)
 * **Ryan(Anqi) Sun** (https://github.com/unscientifi)
 * **Yasmina Tavares** (https://github.com/yasminamayot)
