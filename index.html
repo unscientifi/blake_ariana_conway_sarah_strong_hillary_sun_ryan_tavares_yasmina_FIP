@@ -13,46 +13,42 @@
     <title>Project Play</title>
 </head>
 <body>
-    <main id="app">
+    <main id="app" class="container">
 
         <router-view></router-view>
 
         
 
-        <section class="container" id="homeCarousel">
-            <div class="row">
-
-
-
-                <div id="carouselExampleIndicators" class="carousel slide col-sm " data-ride="carousel">
+        <section id="homeCarousel" class="row">
+                <div id="carouselExampleIndicators" class="carousel slide col-12" data-ride="carousel">
                     <ol class="carousel-indicators">
                       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                     </ol>
 
-                    <div class="carousel-inner container">
-                      <div class="carousel-item row active" id="car1">
-                        <div class="col-sm-6">
-                            <img src="images/eggplant.svg" class="d-block w-100" alt="...">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" id="car1">
+                        <div class="col-md-6 carouselImg">
+                            <img src="images/eggplant.svg" class="center-block" alt="...">
                         </div>
-                        <div class="col-sm-6 carouselText">
+                        <div class="col-md-6 carouselText">
                             <h2>LET'S TALK ABOUT <span>SEX</span></h2>
                         </div>
                       </div>
                       <div class="carousel-item" id="car2">
-                        <div class="col-sm-6">
-                            <img src="images/eggplant.svg" class="d-block w-100" alt="...">
+                        <div class="col-md-6 carouselImg">
+                            <img src="images/eggplant.svg" class="center-block" alt="...">
                         </div>
-                        <div class="col-sm-6 carouselText">
+                        <div class="col-md-6 carouselText">
                             <h2>A <span>TEST</span> WITH NO STUDYING REQUIRED</h2>
                         </div>
                       </div>
                       <div class="carousel-item" id="car3">
-                        <div class="col-sm-6" >
-                            <img src="images/eggplant.svg" class="d-block w-100" alt="...">
+                        <div class="col-md-6 carouselImg" >
+                            <img src="images/eggplant.svg" class="center-block" alt="...">
                         </div>
-                        <div class="col-sm-6 carouselText">
+                        <div class="col-md-6 carouselText">
                             <h2>STAND UP TO <span>STIGMA</span></h2>
                         </div>
                       </div>
@@ -66,11 +62,13 @@
                       <span class="sr-only">Next</span>
                     </a>
                   </div>
+        </section>
 
-                
-                
-
-            </div> 
+        <section class="container" id="welcomeSection">
+            <div class="col-12">
+                <h2>welcome to project<span>play</span></h2>
+                <h4>Enjoyment and education. The best of both worlds.</h4>
+            </div>
         </section>
     </main>
     

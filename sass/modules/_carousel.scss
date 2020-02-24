@@ -1,16 +1,51 @@
 #homeCarousel {
     #car1 {
         background-color: $main-pink;
+        span {
+            color: $main-pink;
+        }
     }
     #car2 {
         background-color: $main-teal;
+        span {
+            color: $main-teal;
+        }
     }
     #car3 {
         background-color: $main-yellow;
+        span {
+            color: $main-yellow;
+        }
+    }
+    .carouselImg {
+        height: 250px;
+        padding-top: 50px;
+        text-align: center;
+        img {
+            width: 50%;
+        }
     }
     .carouselText {
         background-color: $main-light;
-        display: inline-block;
-        //width: 50%;
+        height: 250px;
+        text-align: center;
+        padding: 8% 5%;
+        h2 {
+            font-size: 3em;
+        }
+        //display: inline-block;
     }
+
+    .carousel-indicators li {
+        width: 15px;
+        height: 15px;
+        border-radius: 100%;
+        margin: 0 2%;
+        background-color: lightgrey;
+    }
+
+    .carousel-indicators .active {
+        background-color: $main-blue;
+    }
+
 }
