@@ -1,0 +1,42 @@
+.navbar-brand {
+    font-family: $main-font;
+    color: $main-dark;
+    font-size: 1.4em;
+    text-align: center;
+    span {
+        color: $main-light;
+    }
+}
+
+.navbar-brand:hover {
+    color: $main-dark;
+}
+
+.navbar-nav {
+    text-align: center;
+    font-family: $main-font;
+    
+}
+
+.nav-link {
+    color: $main-dark;
+}
+
+.navbar-toggler {
+    width: 47px;
+    height: 34px;
+    .line {
+        width: 100%;
+        float: left;
+        height: 2px;
+        background-color: #fff;
+        margin-bottom: 5px;
+        border-radius: 200px;
+    }
+}
+
+@media screen and (min-width: 768px) { 
+    // .nav-link{
+    //     float: right;
+    // }
+}
