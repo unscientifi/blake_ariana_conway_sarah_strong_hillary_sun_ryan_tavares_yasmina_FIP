@@ -21,12 +21,12 @@ export default {
           </div>
 
           <div class="row welcomeCategory" id="welcomeTest">
-            <div class="col-12 col-md-6">
+            <div class="col-12 order-sm-1 order-md-2 col-md-6">
                 <h2>play smart</h2>
                 <h3>Getting tested is a really easy process that everyone should do. We'll tell you what to expect so you won't have anything to stress about.</h3>
                 <router-link class="btn btn-outline-primary" to="/education">learn more</router-link>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 order-sm-2 order-md-1 col-md-6">
                 <img src="images/graphic_people2.svg" class="center" alt="...">
                 <div class="circle">.</div>
             </div>

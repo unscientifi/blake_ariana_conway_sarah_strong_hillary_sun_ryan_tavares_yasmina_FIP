@@ -1,6 +1,9 @@
 import NavComponent from "./layout/NavComponent.js";
 import CarouselComponent from "./layout/CarouselComponent.js";
 import WelcomeComponent from "./layout/WelcomeComponent.js";
+import VideoComponent from "./layout/VideoComponent.js";
+import VolunteerLinkComponent from "./layout/VolunteerLinkComponent.js";
+import FooterComponent from "./layout/FooterComponent.js";
 
 export default {
     template: `
@@ -8,6 +11,9 @@ export default {
         <NavComponent/>
         <CarouselComponent/>
         <WelcomeComponent/>
+        <VideoComponent/>
+        <VolunteerLinkComponent/>
+        <FooterComponent/>
 
     </section>
     `,
@@ -17,5 +23,8 @@ export default {
         NavComponent: NavComponent,
         CarouselComponent: CarouselComponent,
         WelcomeComponent: WelcomeComponent,
+        VideoComponent: VideoComponent,
+        VolunteerLinkComponent: VolunteerLinkComponent,
+        FooterComponent: FooterComponent,
     }
 }

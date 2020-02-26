@@ -1,0 +1,30 @@
+#mainFooter {
+    margin-bottom: 20px;
+    .footer-copyright {
+        font-size: 0.8em;
+        display: inline;
+        margin-right: 30px;
+    }
+    .navbar-brand {
+        text-align: center;
+    }
+}
+
+#footerLinks {
+    display: inline;
+}
+
+#socialMedia {
+    img {
+        width: 4%;
+        margin-right: 10px;
+    }
+}
+
+#adminLink {
+    color: $main-dark;
+    font-family: $main-font;
+    font-size: 0.8em;
+    
+
+}
