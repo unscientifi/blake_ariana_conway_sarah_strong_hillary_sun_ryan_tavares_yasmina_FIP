@@ -1,9 +1,85 @@
 #welcomeSection {
+    text-align: center;
+    
+}
+#welcomeMessage{
     background-color: $main-teal;
-    margin: 5% 0;
+    margin: 10% 0 5% 0;
     padding: 8% 3%;
     text-align: center;
     span {
         color: $main-light;
+    }
+}
+
+.welcomeCategory {
+    padding: 5%;
+    background-color: $main-light;
+    margin-bottom: 30px;
+    h2 {
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        margin-bottom: 20px;
+    }
+    .btn {
+        margin-bottom: 30px;
+    }
+    img {
+        position: absolute;
+        width: 90%;
+        left: 0;
+    }
+}
+
+#welcomeSafe {
+    h2 {
+        color: $main-pink;
+    }
+    .btn-outline-primary {
+        color: $main-pink;
+    }
+    .btn-outline-primary:hover {
+        background-color: $main-pink;
+        border: 3px solid $main-pink;
+        color: $main-light;
+    }
+    .circle {
+        background-color: $main-pink;
+    }
+}
+
+#welcomeTest {
+    h2 {
+        color: $main-teal;
+    }
+    .btn-outline-primary {
+        color: $main-teal;
+    }
+    .btn-outline-primary:hover {
+        background-color: $main-teal;
+        border: 3px solid $main-teal;
+        color: $main-light;
+    }
+    .circle {
+        background-color: $main-teal;
+    }
+}
+
+#welcomeStigma {
+    h2 {
+        color: $main-yellow;
+    }
+    .btn-outline-primary {
+        color: $main-yellow;
+    }
+    .btn-outline-primary:hover {
+        background-color: $main-yellow;
+        border: 3px solid $main-yellow;
+        color: $main-light;
+    }
+    .circle {
+        background-color: $main-yellow;
     }
 }

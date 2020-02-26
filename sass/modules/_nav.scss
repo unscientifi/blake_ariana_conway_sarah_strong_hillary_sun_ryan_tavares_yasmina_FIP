@@ -1,8 +1,7 @@
 .navbar-brand {
     font-family: $main-font;
     color: $main-dark;
-    font-size: 1.4em;
-    text-align: center;
+    font-size: 1.8em;
     span {
         color: $main-light;
     }
@@ -15,14 +14,18 @@
 .navbar-nav {
     text-align: center;
     font-family: $main-font;
-    
 }
 
 .nav-link {
     color: $main-dark;
 }
 
+.nav-link:hover {
+    color: $main-blue;
+}
+
 .navbar-toggler {
+    padding-top: 20px;
     width: 47px;
     height: 34px;
     .line {
@@ -35,8 +38,40 @@
     }
 }
 
+.navbar-toggler:focus{
+    outline: none;
+    .line {
+        background-color: $main-blue;
+    }
+}
+
+.navbar-collapse {
+    background: rgba(255, 255, 255, 0.8);
+    .nav-item {
+        border-bottom: 1px solid $main-blue;
+    }
+}
+
+//medium size
 @media screen and (min-width: 768px) { 
-    // .nav-link{
-    //     float: right;
-    // }
+
+}
+
+//large size
+@media screen and (min-width: 992px) { 
+    .navbar-brand {
+        font-size: 2.4em;
+        padding-left: 30px;
+    }
+
+    .navbar-collapse {
+        background: none;
+        .nav-item {
+            border-bottom: none;
+        }
+    }
+
+    .nav-item{
+        padding: 0 30px;
+    }
 }
