@@ -13,6 +13,12 @@ h2 {
     color: $main-dark;
 }
 
+h3 {
+    font-family: $main-font;
+    color: $main-dark;
+    font-size: 1.2em;
+}
+
 h4 {
     font-family: $main-font;
     color: $main-dark;
@@ -21,4 +27,19 @@ h4 {
 
 #app {
     padding: 0px;
+}
+
+.btn-outline-primary {
+    font-family: $main-font;
+    border: 3px solid;
+    border-radius: 100px;
+    padding: 8px 30px;
+
+}
+
+.circle {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    padding: 25%;
 }
