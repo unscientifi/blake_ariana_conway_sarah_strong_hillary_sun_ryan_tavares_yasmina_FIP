@@ -2,6 +2,9 @@
 @import 'modules/_nav';
 @import 'modules/_carousel';
 @import 'modules/_welcome';
+@import 'modules/_video';
+@import 'modules/_links';
+@import 'modules/_footer';
 
 h1 {
     font-family: $main-font;
@@ -31,10 +34,10 @@ h4 {
 
 .btn-outline-primary {
     font-family: $main-font;
-    border: 3px solid;
+    border: 4px solid;
     border-radius: 100px;
     padding: 8px 30px;
-
+    transition: .5s;
 }
 
 .circle {

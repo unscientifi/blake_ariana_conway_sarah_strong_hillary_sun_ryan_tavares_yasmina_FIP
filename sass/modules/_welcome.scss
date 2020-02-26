@@ -1,7 +1,7 @@
 #welcomeSection {
     text-align: center;
-    
 }
+
 #welcomeMessage{
     background-color: $main-teal;
     margin: 10% 0 5% 0;
@@ -42,7 +42,7 @@
     }
     .btn-outline-primary:hover {
         background-color: $main-pink;
-        border: 3px solid $main-pink;
+        border: 4px solid $main-pink;
         color: $main-light;
     }
     .circle {
@@ -59,7 +59,7 @@
     }
     .btn-outline-primary:hover {
         background-color: $main-teal;
-        border: 3px solid $main-teal;
+        border: 4px solid $main-teal;
         color: $main-light;
     }
     .circle {
@@ -76,7 +76,7 @@
     }
     .btn-outline-primary:hover {
         background-color: $main-yellow;
-        border: 3px solid $main-yellow;
+        border: 4px solid $main-yellow;
         color: $main-light;
     }
     .circle {
