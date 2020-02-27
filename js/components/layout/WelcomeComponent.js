@@ -1,6 +1,6 @@
 export default {
     template: `
-    <section class="container" id="welcomeSection">
+    <section class="container-xl" id="welcomeSection">
           <div class="row">
             <div class="col-12" id="welcomeMessage">
                 <h2>welcome to project<span>play</span></h2>
@@ -11,12 +11,12 @@ export default {
           <div class="row welcomeCategory" id="welcomeSafe">
             <div class="col-12 col-md-6">
                 <h2>play safe</h2>
-                <h3>Safe sex is important to prevent the spreading of HIV, AIDS, and other sexually transmitted infections</h3>
+                <h3>Safe sex is important to prevent the spreading of HIV, AIDS, and other sexually transmitted infections.</h3>
                 <router-link class="btn btn-outline-primary" to="/education">learn more</router-link>
             </div>
             <div class="col-12 col-md-6">
                 <img src="images/graphic_people1.svg" class="center" alt="...">
-                <div class="circle">.</div>
+                <div class="circle mx-auto-lg"></div>
             </div>
           </div>
 
@@ -28,7 +28,7 @@ export default {
             </div>
             <div class="col-12 order-sm-2 order-md-1 col-md-6">
                 <img src="images/graphic_people2.svg" class="center" alt="...">
-                <div class="circle">.</div>
+                <div class="circle mx-auto"></div>
             </div>
           </div>
 
@@ -39,7 +39,7 @@ export default {
                 <router-link class="btn btn-outline-primary" to="/education">learn more</router-link>
             </div>
             <div class="col-12 col-md-6">
-                <div class="circle">.</div>
+                <div class="circle mx-auto"></div>
             </div>
           </div>
     </section>

@@ -1,8 +1,8 @@
 export default {
     template: `
     <header id="mainHeader">
-        <nav class="navbar container fixed-top navbar-expand-lg">
-            <div class="d-flex flex-grow-1">
+        <nav class="navbar container-xl fixed-top navbar-expand-lg" id="mainNav">
+            <div class="d-flex flex-grow-1" id="navCon">
                 <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
                 <router-link class="navbar-brand" to="/">project<span>play</span></router-link>
                 <div class="w-100 text-right">

@@ -1,0 +1,34 @@
+
+#contactInfo {
+    background-color: $main-teal;
+    text-align: center;
+    padding: 120px 8%;
+
+    h2 {
+        color: $main-light;
+    }
+}
+
+#contactForm {
+    padding: 60px 8%;
+    label {
+        font-family: $main-font;
+    }
+    input {
+        border: 4px solid $main-yellow;
+        border-radius: 50px;
+    }
+    textarea {
+        border: 4px solid $main-yellow;
+        border-radius: 30px;
+    }
+    button {
+        color: $main-teal;
+        margin-top: 30px;
+    }
+    button:hover {
+        background-color: $main-teal;
+        border: 4px solid $main-teal;
+        color: $main-light;
+    }
+}
