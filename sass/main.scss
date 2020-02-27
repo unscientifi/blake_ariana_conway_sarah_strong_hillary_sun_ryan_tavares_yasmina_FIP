@@ -5,6 +5,8 @@
 @import 'modules/_video';
 @import 'modules/_links';
 @import 'modules/_footer';
+@import 'modules/_aboutProject';
+@import 'modules/_aboutRHAC';
 
 h1 {
     font-family: $main-font;
@@ -26,6 +28,11 @@ h4 {
     font-family: $main-font;
     color: $main-dark;
     font-size: 1em;
+}
+
+p {
+    font-family: $body-font;
+    color: $main-dark;
 }
 
 #app {

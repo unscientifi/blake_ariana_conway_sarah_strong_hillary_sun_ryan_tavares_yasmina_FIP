@@ -8,6 +8,7 @@ export default {
                 <a href="https://www.instagram.com/" target="_blank" id="socialMedia"><img src="images/instagram.svg" alt="Image of Instagram Icon" title="Project Play Instagram"></a>
                 <router-link id="adminLink" to="/">admin login</router-link>
               </div>
+            </div>
         </footer>
     `,
 }

@@ -8,6 +8,7 @@ export default {
                 Sorry, your browser doesn't support video.
               </video>
             </div>
+            </div>
         </section>
     `,
 }
