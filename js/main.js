@@ -24,3 +24,11 @@ const router = new VueRouter({
 
      router,
 }).$mount("#app");
+
+// check when page has been scrolled so we can add a background colour on the nav
+$(function () {
+    $(document).scroll(function () {
+      var $nav = $(".fixed-top");
+      $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    });
+});

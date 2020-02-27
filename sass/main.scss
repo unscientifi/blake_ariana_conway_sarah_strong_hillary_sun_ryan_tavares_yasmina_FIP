@@ -7,6 +7,7 @@
 @import 'modules/_footer';
 @import 'modules/_aboutProject';
 @import 'modules/_aboutRHAC';
+@import 'modules/_contact';
 
 h1 {
     font-family: $main-font;
@@ -37,6 +38,7 @@ p {
 
 #app {
     padding: 0px;
+    width: 100%;
 }
 
 .btn-outline-primary {
@@ -52,4 +54,26 @@ p {
     height: 350px;
     border-radius: 50%;
     padding: 25%;
+}
+
+//medium size
+@media screen and (min-width: 768px) { 
+    h2 {
+        font-size: 2.4em;
+    }
+    
+    h3 {
+        font-size: 1.4em;
+    }
+    
+    h4 {
+        font-size: 1em;
+    }
+
+    .circle {
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        padding: 25%;
+    }
 }

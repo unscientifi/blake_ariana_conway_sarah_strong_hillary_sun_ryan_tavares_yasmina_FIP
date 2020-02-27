@@ -2,8 +2,7 @@
     margin-bottom: 20px;
     .footer-copyright {
         font-size: 0.8em;
-        display: inline;
-        margin-right: 30px;
+        margin-right: 0px;
     }
     .navbar-brand {
         text-align: center;
@@ -25,6 +24,27 @@
     color: $main-dark;
     font-family: $main-font;
     font-size: 0.8em;
-    
+}
 
+//small  size
+@media screen and (min-width: 576px) { 
+    #mainFooter {
+        margin-bottom: 20px;
+        .footer-copyright {
+            font-size: 0.8em;
+            display: inline;
+            margin-right: 30px;
+        }
+        .navbar-brand {
+            text-align: center;
+        }
+    }
+
+    #socialMedia {
+        img {
+            width: 4%;
+            margin-right: 10px;
+        }
+    }
+    
 }
