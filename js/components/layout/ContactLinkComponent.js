@@ -1,6 +1,6 @@
 export default {
     template: `
-        <section class="container contactLink">
+        <section class="container-xl contactLink">
           <div class="row">
             <div class="col-12">
               <h3>Have any questions? We're here to help.</h3>
