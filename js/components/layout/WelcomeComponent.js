@@ -16,7 +16,7 @@ export default {
             </div>
             <div class="col-12 col-md-6">
                 <img src="images/graphic_people1.svg" class="center" alt="...">
-                <div class="circle mx-auto-lg"></div>
+                <div class="circle mx-auto"></div>
             </div>
           </div>
 

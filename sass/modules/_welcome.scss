@@ -6,6 +6,7 @@
     background-color: $main-teal;
     margin: 10% 0 5% 0;
     padding: 8% 3%;
+
     span {
         color: $main-light;
     }
@@ -14,6 +15,7 @@
 .welcomeCategory {
     padding: 8% 10%;
     margin-bottom: 30px;
+
     h2 {
         margin-bottom: 20px;
     }
@@ -21,12 +23,14 @@
     h3 {
         margin-bottom: 20px;
     }
+
     .btn {
         margin-bottom: 30px;
     }
+
     img {
         position: absolute;
-        width: 90%;
+        width: 100%;
         left: 30px;
     }
 }
@@ -35,14 +39,17 @@
     h2 {
         color: $main-pink;
     }
+
     .btn-outline-primary {
         color: $main-pink;
     }
+
     .btn-outline-primary:hover {
         background-color: $main-pink;
         border: 4px solid $main-pink;
         color: $main-light;
     }
+
     .circle {
         background-color: $main-pink;
     }
@@ -52,14 +59,17 @@
     h2 {
         color: $main-teal;
     }
+
     .btn-outline-primary {
         color: $main-teal;
     }
+
     .btn-outline-primary:hover {
         background-color: $main-teal;
         border: 4px solid $main-teal;
         color: $main-light;
     }
+
     .circle {
         background-color: $main-teal;
     }
@@ -69,41 +79,99 @@
     h2 {
         color: $main-yellow;
     }
+
     .btn-outline-primary {
         color: $main-yellow;
     }
+
     .btn-outline-primary:hover {
         background-color: $main-yellow;
         border: 4px solid $main-yellow;
         color: $main-light;
     }
+
     .circle {
         background-color: $main-yellow;
+    }
+}
+
+//small size
+@media screen and (min-width: 576px) { 
+    .welcomeCategory {
+        margin-bottom: 10px;
+
+        h2 {
+            margin: 20px 0;
+        }
+    
+        h3 {
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            margin-bottom: 20px;
+        }
+
+        img {
+            width: 85%;
+            left: 10px;
+        }
+        
     }
 }
 
 //medium size
 @media screen and (min-width: 768px) { 
     .welcomeCategory {
-        margin-bottom: 10px;
         text-align: left;
+        padding: 8% 0px;
         h2 {
-            margin: 30px 0;
+            margin: 60px 0 20px 10%;
         }
     
         h3 {
-            margin-bottom: 15px;
+            margin: 0px 10% 15px 10%;
         }
+
         .btn {
-            margin-bottom: 0px;
+            margin: 0px 0px 0px 10%;
         }
         img {
-            position: absolute;
-            width: 120%;
+            width: 110%;
             left: 0px;
         }
         .circle {
             margin-left: 50px;
+        }
+    }
+}
+
+//large size
+@media screen and (min-width: 992px) { 
+    #welcomeMessage{
+        margin: 4% 0 1% 0;
+        padding: 8% 3%;
+    
+        span {
+            color: $main-light;
+        }
+    }
+
+    .welcomeCategory {
+        h2 {
+            margin: 80px 0 30px 10%;
+        }
+    
+        h3 {
+            margin: 0px 10% 30px 10%;
+        }
+
+        .btn {
+            margin: 0px 0px 0px 10%;
+        }
+        img {
+            width: 100%;
+            left: 10px;
         }
     }
 }

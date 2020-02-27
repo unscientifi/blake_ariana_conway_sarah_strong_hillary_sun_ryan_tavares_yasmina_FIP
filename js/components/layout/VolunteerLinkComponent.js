@@ -1,6 +1,6 @@
 export default {
 template: `
-    <section class="container volunteerLink">
+    <section class="container-xl volunteerLink">
       <div class="row">
         <div class="col-12">
           <h3>Want to make a difference in your community?</h3>

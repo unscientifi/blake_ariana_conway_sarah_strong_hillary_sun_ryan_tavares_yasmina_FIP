@@ -50,10 +50,20 @@ p {
 }
 
 .circle {
-    width: 350px;
-    height: 350px;
+    width: 360px;
+    height: 360px;
     border-radius: 50%;
     padding: 25%;
+}
+
+//small size
+@media screen and (min-width: 576px) { 
+    .circle {
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        padding: 25%;
+    }
 }
 
 //medium size
@@ -75,5 +85,28 @@ p {
         height: 400px;
         border-radius: 50%;
         padding: 25%;
+    }
+}
+
+//large size
+@media screen and (min-width: 992px) { 
+    .circle {
+        width: 450px;
+        height: 450px;
+    }
+}
+
+//extra large size
+@media screen and (min-width: 1200px) { 
+    h2 {
+        font-size: 2.6em;
+    }
+    
+    h3 {
+        font-size: 1.6em;
+    }
+    
+    h4 {
+        font-size: 1.2em;
     }
 }
