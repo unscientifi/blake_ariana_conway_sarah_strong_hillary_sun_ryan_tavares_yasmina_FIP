@@ -11,7 +11,7 @@ export default {
           <div class="row welcomeCategory" id="welcomeSafe">
             <div class="col-12 col-md-6">
                 <h2>play safe</h2>
-                <h3>Safe sex is important to prevent the spreading of HIV, AIDS, and other sexually transmitted infections.</h3>
+                <h3>Safe sex is important to prevent the spreading of HIV and other sexually transmitted infections. Need some tips? We've got you.</h3>
                 <router-link class="btn btn-outline-primary" to="/education">learn more</router-link>
             </div>
             <div class="col-12 col-md-6">
