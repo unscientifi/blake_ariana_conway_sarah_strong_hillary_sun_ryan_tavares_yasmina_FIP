@@ -15,7 +15,7 @@ export default {
                         <div class="carousel-item active" id="car1">
                             <div class="row">
                                 <div class="col-lg-6 carouselImg">
-                                    <img src="images/safesexconvo.svg" class="center" alt="icon of a condom and an eggplant in a speech bubble">
+                                    <img src="images/safesexconvo.svg" class="center" alt="graphic of a condom and an eggplant in a speech bubble">
                                 </div>
                                 <div class="col-lg-6 carouselText">
                                     <h2>LET'S TALK ABOUT <span>SEX</span></h2>
@@ -25,7 +25,7 @@ export default {
                         <div class="carousel-item" id="car2">
                             <div class="row">
                                 <div class="col-12 col-lg-6 carouselImg">
-                                    <img src="images/eggplant.svg" class="center-block" alt="...">
+                                    <img src="images/testingconvo.svg" class="center-block" alt="grapic of a syringe writing in a book">
                                 </div>
                                 <div class="col-12 col-lg-6 carouselText">
                                     <h2>A <span>TEST</span> WITH NO STUDYING REQUIRED</h2>
@@ -35,7 +35,7 @@ export default {
                         <div class="carousel-item" id="car3">
                             <div class="row">
                                 <div class="col-12 col-lg-6 carouselImg" >
-                                    <img src="images/eggplant.svg" class="center-block" alt="...">
+                                    <img src="images/stigmaconvo.svg" class="center-block" alt="graphic of up arrows">
                                 </div>
                                 <div class="col-12 col-lg-6 carouselText">
                                     <h2>STAND UP TO <span>STIGMA</span></h2>
