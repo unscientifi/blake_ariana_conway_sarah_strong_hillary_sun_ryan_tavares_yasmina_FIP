@@ -1,8 +1,11 @@
 export default {
+    name: "SafeComponent",
+    
     props: ['title, text, graphic, alt'],
 
     template: `
     <section class="container">
+        <h2>Play Safe</h2>
         <div class="row">
             <div class="col-12" id="vidBox">
                 <video poster="..." controls>
