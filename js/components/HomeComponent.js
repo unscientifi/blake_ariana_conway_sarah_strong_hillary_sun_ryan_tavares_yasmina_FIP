@@ -5,6 +5,7 @@ import VideoComponent from "./layout/VideoComponent.js";
 import VolunteerLinkComponent from "./layout/VolunteerLinkComponent.js";
 import FooterComponent from "./layout/FooterComponent.js";
 
+
 export default {
     template: `
     <section>
@@ -26,5 +27,6 @@ export default {
         VideoComponent: VideoComponent,
         VolunteerLinkComponent: VolunteerLinkComponent,
         FooterComponent: FooterComponent,
-    }
+        
+    },
 }

@@ -1,0 +1,8 @@
+## Redirect
+Redirect 301 /blake_ariana_conway_sarah_strong_hillary_sun_ryan_tavares_yasmina_FIP/load.php /blake_ariana_conway_sarah_strong_hillary_sun_ryan_tavares_yasmina_FIP
+Redirect 301 /load.php /
+
+## Deny access
+<FilesMatch "\.?htaccess$">
+    deny from all
+</FilesMatch>
