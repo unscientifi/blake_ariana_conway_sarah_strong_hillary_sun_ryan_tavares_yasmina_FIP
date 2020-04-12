@@ -18,7 +18,7 @@ export default {
             </div>
             <div class="col-12 order-sm-2 order-md-1 col-md-6">
                 <img src="images/graphic_people1.svg" class="center" alt="...">
-                <div class="circle">.</div>
+                <div class="circle show-on-scroll right">.</div>
             </div>
           </div>
     </section>

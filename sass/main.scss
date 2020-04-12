@@ -59,7 +59,44 @@ p {
     height: 360px;
     border-radius: 50%;
     padding: 25%;
+    opacity: 0;
 }
+
+.circle.left {
+    -webkit-transform: translateX(15em);
+          transform: translateX(15em);
+    -webkit-transition: opacity .3s .25s ease-out,
+                -webkit-transform 4s .25s cubic-bezier(0,1,.3,1);
+    transition: opacity .3s .25s ease-out,
+                -webkit-transform 4s .25s cubic-bezier(0,1,.3,1);
+    transition: transform 4s .25s cubic-bezier(0,1,.3,1),
+                opacity .3s .25s ease-out;
+    transition: transform 4s .25s cubic-bezier(0,1,.3,1),
+                opacity .3s .25s ease-out,
+                -webkit-transform 4s .25s cubic-bezier(0,1,.3,1);
+    will-change: transform, opacity;
+}
+
+.circle.right {
+    -webkit-transform: translateX(-15em);
+          transform: translateX(-15em);
+    -webkit-transition: opacity .3s .25s ease-out,
+                -webkit-transform 4s .25s cubic-bezier(0,1,.3,1);
+    transition: opacity .3s .25s ease-out,
+                -webkit-transform 4s .25s cubic-bezier(0,1,.3,1);
+    transition: transform 4s .25s cubic-bezier(0,1,.3,1),
+                opacity .3s .25s ease-out;
+    transition: transform 4s .25s cubic-bezier(0,1,.3,1),
+                opacity .3s .25s ease-out,
+                -webkit-transform 4s .25s cubic-bezier(0,1,.3,1);
+    will-change: transform, opacity;
+}
+
+.circle.is-visible {
+    opacity: 1;
+    -webkit-transform: rotateZ(-2deg);
+            transform: rotateZ(-2deg);
+  }
 
 //small size
 @media screen and (min-width: 576px) { 
