@@ -10,8 +10,8 @@ export default {
         </div>
         <div class="row">
             <div class="col-12" id="vidBox">
-                <video poster="..." controls>
-                    <source src="/video/..." type="video/mp4">
+                <video poster="./images/play_safe_video_thumbnail.jpg" controls>
+                    <source src="./video/play_safe.mp4" type="video/mp4">
                     Sorry, your browser doesn't support video.
                 </video>
             </div>

@@ -1,0 +1,50 @@
+<svg id="Layer_3" data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 543.47 543.47">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #11034c;
+      }
+
+      .cls-2, .cls-5 {
+        fill: #1d0072;
+      }
+
+      .cls-2, .cls-6 {
+        stroke: #1d0072;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 6px;
+      }
+
+      .cls-3 {
+        fill: #17d5d1;
+      }
+
+      .cls-4, .cls-6 {
+        fill: #139e97;
+      }
+
+      .cls-6 {
+        stroke-miterlimit: 10;
+        stroke-width: 13px;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-1" x="406.47" y="78.12" width="62.27" height="108.69"/>
+    <rect class="cls-2" x="382.69" y="22.64" width="109.83" height="58.88"/>
+    <path class="cls-3" d="M275.82,498.78V749H719.65V498.78L497.73,276.86h0C411.69,364,363,412.73,275.82,498.78Z" transform="translate(-228.26 -205.53)"/>
+    <path class="cls-4" d="M720.79,498.78,498.87,276.86c-44.16,43-78.13,77-112.09,111l-111,111v51L497.74,327.81,719.65,549.73v6.79h0V498.78Z" transform="translate(-228.26 -205.53)"/>
+    <path class="cls-5" d="M458.11,749H324.5V617.66a66.93,66.93,0,0,1,66.81-66.8h0a66.92,66.92,0,0,1,66.8,66.8Z" transform="translate(-228.26 -205.53)"/>
+    <rect class="cls-5" x="281.66" y="356.02" width="149.98" height="131.48"/>
+    <g>
+      <rect class="cls-4" x="297.25" y="371.6" width="51.62" height="100.31"/>
+      <rect class="cls-4" x="364.44" y="371.6" width="51.62" height="100.31"/>
+    </g>
+    <path class="cls-5" d="M761.55,452.35,524.91,215.72c-13.59-13.59-37.36-13.59-50.95,0L238.45,452.35c-13.58,13.59-13.58,37.37,0,50.95s37.37,13.59,50.95,0L500,292.71,710.6,503.3c13.58,13.59,37.36,13.59,50.95,0C775.13,488.59,775.13,465.94,761.55,452.35Z" transform="translate(-228.26 -205.53)"/>
+    <circle class="cls-6" cx="271.74" cy="249.43" r="54.91"/>
+  </g>
+</svg>

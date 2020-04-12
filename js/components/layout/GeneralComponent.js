@@ -8,14 +8,6 @@ export default {
         <div class="infoTitle row justify-content-center">
             <h2>Get the Facts</h2>
         </div>
-        <div class="row">
-            <div class="col-12" id="vidBox">
-                <video poster="..." controls>
-                    <source src="/video/..." type="video/mp4">
-                    Sorry, your browser doesn't support video.
-                </video>
-            </div>
-        </div>
         <div v-for="item in general" class="row educationInfo">
             <div class="col-12 col-md-6 p-0" :class="item.orderText">
                 <h3>{{ item.title }}</h3>

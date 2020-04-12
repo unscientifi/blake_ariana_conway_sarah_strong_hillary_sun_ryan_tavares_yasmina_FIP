@@ -10,12 +10,28 @@
         margin-bottom: 30px;
     }
 
+    .offerText {
+        h3 {
+            text-align: center;
+        }
+        position: absolute;
+        top: 80px;
+        z-index: 4;
+        font-weight: bold;
+        text-align: left;
+        padding: 50px;
+        li {
+            margin-bottom: 10px;
+        }
+        
+    }
+
     .circle {
-        margin: 30px 0;
+        margin: 50px 0;
         width: 400px;
         height: 400px;
         padding: 20% 15%;
-        background-color: $main-yellow;
+        background-color: $main-pink;
         ul li{
             padding-top: 10px;
         }
@@ -35,4 +51,78 @@
 
 #visionSection {
     width: 100%;
+    img {
+        margin-bottom: 20px;
+    }
+    h3 {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #aboutRHAC {
+        h3 {
+            margin-top: 50px;
+        }
+        p {
+            margin-bottom: 50px;
+        }
+        .offerText {
+            position: absolute;
+            top: 40px;
+            left: 80px;
+            padding: 0px;
+        }
+    
+        .circle {
+            margin: 50px 0;
+            width: 400px;
+            height: 400px;
+            padding: 20% 15%;
+            background-color: $main-pink;
+            ul li{
+                padding-top: 10px;
+            }
+        }
+    }
+    #visionSection {
+        img {
+            margin-bottom: 0px;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) { 
+    #aboutRHAC {
+        text-align: left;
+        .offerText {
+            left: 60px;
+        }
+        .circle {
+            margin: 0px 0px 50px 0px;
+        }
+    }
+    #RHACContact {
+        text-align: center;
+    }
+
+    #visionSection {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1200px) { 
+    #aboutRHAC {
+        .offerText {
+            left: 40px;
+            li {
+                font-size: 1.2em;
+            }
+        }
+        .circle {
+            margin: 0px 0px 100px 0px;
+            width: 450px;
+            height: 450px;
+        }
+    }
 }
