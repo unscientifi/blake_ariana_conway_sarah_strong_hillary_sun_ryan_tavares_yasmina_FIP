@@ -44,7 +44,7 @@ export default {
                 },
                 {
                     title: "What's the big deal?", 
-                    text: "If you're wondering why you should be practicing safer sex, we have the answers right here. Safer sex will reduce your risk of getting HIV or other sexually transmitted infections. These precautions will not make sex any less fun, with the knowledge that you are protecting yourself you can worry less and focus on the pleasure. Safer sex is an option for everyone regardless of gender, age, race, sexual orientation, number of partners, or if you believe you are in a monogamous relationship.", 
+                    text: "If you're wondering why you should be practicing safer sex, we have the answers right here. Safer sex will reduce your risk of getting HIV or other sexually transmitted infections. These precautions will not make sex any less fun. With the knowledge that you are protecting yourself you can worry less and focus on the pleasure. Safer sex is an option for everyone regardless of gender, age, race, sexual orientation, number of partners, or if you believe you are in a monogamous relationship.", 
                     text2: "Learning about HIV/AIDS and safer sex, getting tested for HIV on a regular basis, making safer sex choices before you are in a sexual situation, talking to your partner about what you are thinking, and respecting your partner's safer sex choices are all ways to better protect yourself and make sex more enjoyable for everyone involved.",
                     graphic: "...", 
                     alt: "...",
@@ -63,7 +63,7 @@ export default {
                 {
                     title: "Practice makes perfect", 
                     text: "Condoms can be a little intimidating at first, but like with most things, practice makes perfect! You can practice using condoms on yourself, your partner(s), a banana, dildo, or sex toy, so when it's time to actually use one you'll be prepared.", 
-                    text2: "Communication is key. Be sure to talk with your partner(s) and discuss safer sex options. It's okay if you feel embarrassed, just take a deep breath. It really is easier after first time you buy them, use them, or talk about them.",
+                    text2: "Communication is key. Be sure to talk with your partner(s) and discuss safer sex options. It's okay if you feel embarrassed, just take a deep breath. It really is easier after first time you buy condoms, use them, or talk about them.",
                     graphic: "safe4.svg", 
                     alt: "graphic of a couple holding a condom package",
                     orderImg: "order-md-1",

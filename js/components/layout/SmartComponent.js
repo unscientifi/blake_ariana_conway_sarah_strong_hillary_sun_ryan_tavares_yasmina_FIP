@@ -63,7 +63,7 @@ export default {
                     {
                         title: "Where can I get tested?", 
                         text: "There are a wide range of facilities that offer HIV testing. These include your local health care provider's office, community health centers, treatment clinics for sexually transmitted infections, substance abuse treatment programs, and even pharmacies.",
-                        text2: "Testing can certainly feel like a secret you need to keep and you may feel alone going through it. Consider reaching out to close friends and family that you trust, this does not have to be a process you have to go through alone. Taking that first step towards treatment is an incredibly brave decision to make.", 
+                        text2: "Testing can certainly feel like a secret you need to keep and you may feel alone going through it. Consider reaching out to close friends and family that you trust as this does not have to be a process you have to go through alone. Taking that first step towards treatment is an incredibly brave decision to make.", 
                         graphic: "...", 
                         alt: "...",
                         linkText: "Visit the RHAC website to find a testing location near you.",
