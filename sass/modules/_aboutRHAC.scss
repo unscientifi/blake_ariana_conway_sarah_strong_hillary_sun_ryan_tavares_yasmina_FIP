@@ -32,6 +32,7 @@
         height: 400px;
         padding: 20% 15%;
         background-color: $main-pink;
+        opacity: 100%;
         ul li{
             padding-top: 10px;
         }
@@ -123,6 +124,13 @@
             margin: 0px 0px 100px 0px;
             width: 450px;
             height: 450px;
+        }
+    }
+
+    #RHACContact {
+        margin: 50px 0;
+        a {
+            font-size: 1.6em;
         }
     }
 }
