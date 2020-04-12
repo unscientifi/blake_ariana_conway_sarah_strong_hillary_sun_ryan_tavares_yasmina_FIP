@@ -3,41 +3,61 @@ import AboutComponent from "./components/AboutComponent.js";
 import EducationComponent from "./components/EducationComponent.js";
 import ContactComponent from "./components/ContactComponent.js";
 
+import LoginComponent from './components/LoginComponent.js';
+import UserHomeComponent from './components/UserHomeComponent.js';
+
 (() => {
     let router = new VueRouter({
         routes: [
             { path: "/", name: "home", component: HomeComponent },
             { path: "/about", name: "about", component: AboutComponent },
             { path: "/education", name: "education", component: EducationComponent, props: true },
-            { path: "/contact", name: "contact", component: ContactComponent }
+            { path: "/contact", name: "contact", component: ContactComponent },
+            { path: "/login", name: "login", component: LoginComponent },
+            { path: "/userhome", name: "userhome", component: UserHomeComponent, props: true }
         ]
     });
 
     const vm = new Vue ({
         el: '#app',
 
-        data: {},
+        data: {
+            authenticated: false,
+            administrator: false,
+            user: [],
+        },
 
-        mounted() {},
-
-        methods: {},
-
+        methods: {
+            setAuthenticated(status, data) {
+                this.authenticated = status;
+                this.user = data;
+              },
+        
+              logout() {
+                // push user back to login page
+                this.$router.push({ path: "/login" });
+                this.authenticated = false;
+              }
+        },
         router: router
     }).$mount("#app");
+
+    // router.beforeEach((to, from, next) => {
+    //     //console.log('router guard fired!', to, from, vm.authenticated);
+    
+    //     if (vm.authenticated == false) {
+    //       next("/login");
+    //     } else {
+    //       next();
+    //     }
+    //   });
+    // })();
 
     // check when page has been scrolled so we can add a background colour on the nav
     $(function () {
         $(document).scroll(function () {
         var $nav = $("#mainNav");
-        // var $educationNav = $('.educationNav');
-        // var isPositionFixed = ($educationNav.css('position') == 'fixed'); 
         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-        // if ($(this).scrollTop() > 50 && !isPositionFixed){ 
-        //     $educationNav.css({'position': 'fixed', 'top': '0px'}); 
-        //   }
-        //   if ($(this).scrollTop() < 50 && isPositionFixed){
-        //     $educationNav.css({'position': 'static', 'top': '0px'}); 
-        //   } 
         });
     });
 
@@ -80,4 +100,4 @@ import ContactComponent from "./components/ContactComponent.js";
                 rect.bottom <= (window.innerHeight || document.documentElement.clientHeight))
             );
         } 
-})();
+    })();
