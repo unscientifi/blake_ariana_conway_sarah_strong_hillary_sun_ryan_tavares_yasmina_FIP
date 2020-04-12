@@ -38,6 +38,7 @@ export default {
     methods: {
         switchTopic(theComponent) {
             this.activeComponent = theComponent;
+            window.scrollTo(0, 0);
         }
     },
 
