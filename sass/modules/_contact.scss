@@ -6,29 +6,37 @@
 
     h2 {
         color: $main-light;
+        margin-bottom: 20px;
     }
 }
 
 #contactForm {
-    padding: 60px 8%;
+    padding: 120px 8%;
     label {
         font-family: $main-font;
     }
     input {
-        border: 4px solid $main-yellow;
+        border: 4px solid $main-teal;
         border-radius: 50px;
     }
     textarea {
-        border: 4px solid $main-yellow;
+        border: 4px solid $main-teal;
         border-radius: 30px;
     }
     button {
-        color: $main-teal;
+        color: $main-light;
+        background-color: $main-teal;
+        border: 4px solid $main-teal;
         margin-top: 30px;
     }
     button:hover {
-        background-color: $main-teal;
-        border: 4px solid $main-teal;
-        color: $main-light;
+        background-color: $main-light;
+        color: $main-teal;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #contactInfo {
+        text-align: left;
     }
 }

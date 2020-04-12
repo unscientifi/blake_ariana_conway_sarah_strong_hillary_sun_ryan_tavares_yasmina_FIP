@@ -1,12 +1,11 @@
 export default {
     template: `
-    <section class="container" id="aboutProjectSection">
+    <section class="container-xl" id="aboutProjectSection">
           <div class="row">
             <div class="col-12" id="aboutHeader">
                 <h1>get to know us</h1>
             </div>
           </div>
-
           <div class="row" id="aboutProject">
             <div class="col-12" id="aboutText1">
               <h3>What is project<span>play</span>?</h3>
@@ -19,7 +18,7 @@ export default {
             </div>
             <div class="col-12 order-sm-2 order-md-1 col-md-6">
                 <img src="images/graphic_people1.svg" class="center" alt="...">
-                <div class="circle">.</div>
+                <div class="circle show-on-scroll right">.</div>
             </div>
           </div>
     </section>

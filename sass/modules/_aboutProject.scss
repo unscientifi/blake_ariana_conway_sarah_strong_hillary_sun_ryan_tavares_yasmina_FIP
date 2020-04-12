@@ -3,7 +3,7 @@
 }
 #aboutHeader {
     background-color: $main-yellow;
-    padding: 110px 0;
+    padding: 120px 0;
     margin-bottom: 50px;
 }
 
@@ -11,7 +11,7 @@
     padding: 0% 10%;
     border-bottom: 4px solid $main-yellow;
     span {
-        color: $main-yellow;
+        color: $main-teal;
     }
 
     #aboutText1 {
@@ -23,6 +23,7 @@
         position: absolute;
         width: 90%;
         left: 0;
+        z-index: 4;
     }
 
     .circle {

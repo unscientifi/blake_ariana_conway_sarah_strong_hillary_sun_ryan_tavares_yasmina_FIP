@@ -2,10 +2,12 @@
     margin-bottom: 20px;
     .footer-copyright {
         font-size: 0.8em;
-        margin-right: 0px;
+        margin-right: 20px;
+        margin-left: 20px;
+        display: inline;
     }
     .navbar-brand {
-        text-align: center;
+        margin-bottom: 10px;
     }
 }
 
@@ -16,7 +18,8 @@
 #socialMedia {
     img {
         width: 4%;
-        margin-right: 10px;
+        margin-right: 20px;
+        margin-left: 20px;
     }
 }
 
@@ -24,6 +27,8 @@
     color: $main-dark;
     font-family: $main-font;
     font-size: 0.8em;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 //small  size
@@ -47,4 +52,27 @@
         }
     }
     
+}
+
+@media screen and (min-width: 992px) {
+    #mainFooter {
+        margin-bottom: 30px;
+        .footer-copyright {
+            font-size: 1em;
+            display: inline;
+            margin-right: 30px;
+        }
+        .navbar-brand {
+            text-align: center;
+        }
+        #adminLink {
+            font-size: 1em;
+        }
+    }
+    #socialMedia {
+        img {
+            width: 3%;
+            margin-right: 20px;
+        }
+    }
 }

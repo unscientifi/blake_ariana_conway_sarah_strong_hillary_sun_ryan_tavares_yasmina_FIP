@@ -16,7 +16,7 @@ export default {
             </div>
             <div class="col-12 col-md-6">
                 <img src="images/graphic_people1.svg" class="center" alt="graphic of two people">
-                <div class="circle mx-auto"></div>
+                <div class="circle mx-auto show-on-scroll left"></div>
             </div>
           </div>
 
@@ -28,7 +28,7 @@ export default {
             </div>
             <div class="col-12 order-sm-2 order-md-1 col-md-6">
                 <img src="images/graphic_people2.svg" class="center" alt="graphic of a doctor">
-                <div class="circle mx-auto"></div>
+                <div class="circle mx-auto show-on-scroll right"></div>
             </div>
           </div>
 
@@ -40,7 +40,7 @@ export default {
             </div>
             <div class="col-12 col-md-6">
                 <img src="images/graphic_people4.svg" class="center" alt="graphic of two people">
-                <div class="circle mx-auto"></div>
+                <div class="circle mx-auto show-on-scroll left"></div>
             </div>
           </div>
     </section>
