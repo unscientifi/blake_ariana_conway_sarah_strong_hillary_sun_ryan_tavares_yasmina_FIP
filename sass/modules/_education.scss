@@ -61,6 +61,11 @@
     a:hover {
         color: $main-teal;
     }
+    img{
+        width: 50%;
+        margin-bottom: 50px;
+        margin-left: 100px;
+    }
 }
 
 .safePage {
@@ -105,6 +110,12 @@
         padding: 5%;
         h3 {
             text-align: left;
+        }
+        img{
+            width: 90%;
+            margin-top: 70px;
+            margin-bottom: 40px;
+            margin-left: 0px;
         }
     }
     .testingPage {
@@ -157,6 +168,12 @@
                 margin: 0px 20px;
                 font-size: 1.6em;
             }
+        }
+    }
+
+    .educationInfo {
+        img{
+            margin-top: 30px;
         }
     }
 

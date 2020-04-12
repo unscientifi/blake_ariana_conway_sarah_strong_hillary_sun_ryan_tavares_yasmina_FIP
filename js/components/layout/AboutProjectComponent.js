@@ -18,7 +18,7 @@ export default {
             </div>
             <div class="col-12 order-sm-2 order-md-1 col-md-6">
                 <img src="images/graphic_people5.svg" class="center" alt="graphic of a couple holding a condom">
-                <div class="circle show-on-scroll right">.</div>
+                <div class="circle">.</div>
             </div>
           </div>
     </section>

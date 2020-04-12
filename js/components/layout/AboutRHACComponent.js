@@ -22,7 +22,7 @@ export default {
                     <li>Strong relationships with people in our communities</li>
                   </ul>
                 </div>
-                <div class="circle show-on-scroll left"></div>
+                <div class="circle"></div>
             </div>
             <AboutVisionComponent v:bind:icon="vision.icon" v:bind:title="vision.title" v:bind:description="vision.description"/>
             <div id="RHACContact">
