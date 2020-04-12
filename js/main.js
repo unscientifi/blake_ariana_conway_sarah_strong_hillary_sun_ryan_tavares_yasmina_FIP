@@ -8,7 +8,7 @@ import ContactComponent from "./components/ContactComponent.js";
         routes: [
             { path: "/", name: "home", component: HomeComponent },
             { path: "/about", name: "about", component: AboutComponent },
-            { path: "/education", name: "education", component: EducationComponent },
+            { path: "/education", name: "education", component: EducationComponent, props: true },
             { path: "/contact", name: "contact", component: ContactComponent }
         ]
     });

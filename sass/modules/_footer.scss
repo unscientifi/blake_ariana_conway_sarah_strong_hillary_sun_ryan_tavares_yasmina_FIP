@@ -53,3 +53,26 @@
     }
     
 }
+
+@media screen and (min-width: 992px) {
+    #mainFooter {
+        margin-bottom: 30px;
+        .footer-copyright {
+            font-size: 1em;
+            display: inline;
+            margin-right: 30px;
+        }
+        .navbar-brand {
+            text-align: center;
+        }
+        #adminLink {
+            font-size: 1em;
+        }
+    }
+    #socialMedia {
+        img {
+            width: 3%;
+            margin-right: 20px;
+        }
+    }
+}
