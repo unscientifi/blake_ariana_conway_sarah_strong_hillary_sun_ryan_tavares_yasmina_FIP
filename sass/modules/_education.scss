@@ -102,19 +102,9 @@
 
 @media screen and (min-width: 768px) { 
     .educationInfo {
+        padding: 5%;
         h3 {
             text-align: left;
-            padding: 3%;
-        }
-        a { 
-            padding: 3%;
-            font-family: $main-font;
-            color: $main-dark;
-            text-align: center;
-            transition: .5s;
-        }
-        a:hover {
-            color: $main-teal;
         }
     }
     .testingPage {
@@ -156,4 +146,26 @@
             }
         }
     }
+}
+
+@media screen and (min-width: 992px) {
+    .educationNav {
+        padding-top: 80px;
+        padding-bottom: 10px;
+        ul {
+            li {
+                margin: 0px 20px;
+                font-size: 1.6em;
+            }
+        }
+    }
+
+    .infoTitle {
+        padding-top: 200px;
+        padding-bottom: 70px;
+        h2 {
+            font-size: 3em;
+        }
+    }
+
 }
