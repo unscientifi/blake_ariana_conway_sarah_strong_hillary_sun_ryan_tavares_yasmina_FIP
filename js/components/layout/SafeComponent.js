@@ -20,6 +20,7 @@ export default {
             <div class="col-12 col-md-6 p-0" :class="item.orderText">
                 <h3>{{ item.title }}</h3>
                 <p>{{ item.text }}</p>
+                <p>{{ item.text2 }}</p>
                 <a target="_blank" :href="item.link">{{ item.linkText }}</a>
             </div>
             <div class="col-12 col-md-6" :class="item.orderImg">
@@ -33,34 +34,38 @@ export default {
         return {
             safe: [
                 {
-                    title: "safe sex 1", 
-                    text: "This paragraph is about why HIV and Hep C testing are important and why you should get tested. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.", 
-                    graphic: "eggplant.svg", 
-                    alt: "graphic of an eggplant",
+                    title: "Let's talk about sex", 
+                    text: "Sex is nothing to be embarrased about. It's important to learn how to practice safer sex so you can focus on the pleasure instead of worrying about the problems that can come with it. So let's talk!",
+                    text2: "Safer sex is defined as any sexual activity using precautions such as condoms or dental dams to reduce the likelihood of acquiring HIV and/or other sexually transmitted infections (STIs). The term safer sex reflects the fact that things such as condoms and dental dams reduce, but do not completely eliminate, the risk of getting or giving infections.", 
+                    graphic: "...", 
+                    alt: "...",
                     orderImg: "order-md-2",
                     orderText: "order-md-1",
                 },
                 {
-                    title: "safe sex 2", 
-                    text: "Testing is easy! This paragraph explains the process of testing so you know what to expect and can eliminate any fears that might be holding you back. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.", 
-                    graphic: "safesexconvo.svg", 
-                    alt: "graphic of a conversation about safe sex",
+                    title: "What's the big deal?", 
+                    text: "If you're wondering why you should be practicing safer sex, we have the answers right here. Safer sex will reduce your risk of getting HIV or other sexually transmitted infections. These precautions will not make sex any less fun, with the knowledge that you are protecting yourself you can worry less and focus on the pleasure. Safer sex is an option for everyone regardless of gender, age, race, sexual orientation, number of partners, or if you believe you are in a monogamous relationship.", 
+                    text2: "Learning about HIV/AIDS and safer sex, getting tested for HIV on a regular basis, making safer sex choices before you are in a sexual situation, talking to your partner about what you are thinking, and respecting your partner's safer sex choices are all ways to better protect yourself and make sex more enjoyable for everyone involved.",
+                    graphic: "...", 
+                    alt: "...",
                     orderImg: "order-md-1",
                     orderText: "order-md-2",
                 },
                 {
-                    title: "safe sex 3", 
-                    text: "Testing is easy! This paragraph explains the process of testing so you know what to expect and can eliminate any fears that might be holding you back. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.", 
-                    graphic: "safesexconvo.svg", 
-                    alt: "graphic of a conversation about safe sex",
+                    title: "Get closer with barriers", 
+                    text: "When used properly, internal and external condoms are a great way to help reduce the likelihood of acquiring STIs. Personal lubricant is also a good way to make sex more comfortable and protect mucous membranes. Remember to only use waterbased lubricants with latex condoms!",
+                    text2: "Dental dams are another great option for safer sex. They are small, thin pieces of latex that cover the entire vagina. Remember to store dental dams in a cool, dry place and never reuse them.", 
+                    graphic: "...", 
+                    alt: "...",
                     orderImg: "order-md-2",
                     orderText: "order-md-1",
                 },
                 {
-                    title: "safe sex 4", 
-                    text: "Testing is easy! This paragraph explains the process of testing so you know what to expect and can eliminate any fears that might be holding you back. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.", 
-                    graphic: "safesexconvo.svg", 
-                    alt: "graphic of a conversation about safe sex",
+                    title: "Practice makes perfect", 
+                    text: "Condoms can be a little intimidating at first, but like with most things, practice makes perfect! You can practice using condoms on yourself, your partner(s), a banana, dildo, or sex toy, so when it's time to actually use one you'll be prepared.", 
+                    text2: "Communication is key. Be sure to talk with your partner(s) and discuss safer sex options. It's okay if you feel embarrassed, just take a deep breath. It really is easier after first time you buy them, use them, or talk about them.",
+                    graphic: "graphic_people3.svg", 
+                    alt: "graphic of a couple holding a condom package",
                     orderImg: "order-md-1",
                     orderText: "order-md-2",
                 },
