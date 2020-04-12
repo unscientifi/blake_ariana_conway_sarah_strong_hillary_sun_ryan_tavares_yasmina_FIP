@@ -28,9 +28,16 @@ import ContactComponent from "./components/ContactComponent.js";
     // check when page has been scrolled so we can add a background colour on the nav
     $(function () {
         $(document).scroll(function () {
-        var $nav = $(".fixed-top");
+        var $nav = $("#mainNav");
+        // var $educationNav = $('.educationNav');
+        // var isPositionFixed = ($educationNav.css('position') == 'fixed'); 
         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+        // if ($(this).scrollTop() > 50 && !isPositionFixed){ 
+        //     $educationNav.css({'position': 'fixed', 'top': '0px'}); 
+        //   }
+        //   if ($(this).scrollTop() < 50 && isPositionFixed){
+        //     $educationNav.css({'position': 'static', 'top': '0px'}); 
+        //   } 
         });
     });
-
 })();

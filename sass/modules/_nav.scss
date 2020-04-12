@@ -17,7 +17,7 @@
 }
 
 .nav-link {
-    color: $main-dark;
+    color: $main-light;
     transition: .5s;
 }
 
@@ -33,26 +33,24 @@
         width: 100%;
         float: left;
         height: 2px;
-        background-color: #fff;
+        background-color: $main-dark;
         margin-bottom: 5px;
         border-radius: 50px;
     }
 }
 
-// fix this so menu turns white again when menu is closed
 .navbar-toggler:focus{
     outline: none;
     .line {
-        background-color: $main-blue;
+        background-color: $main-light;
     }
 }
 
 // make the open mobile nav look nicer?
 .navbar-collapse {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(61, 61, 61, 0.9);
     .nav-item {
-        border-bottom: 1px solid $main-blue;
-        padding: 10px 0;
+        padding: 8px 0;
     }
 }
 
@@ -92,13 +90,20 @@
     }
 
     .nav-link {
-        font-size: 0.8em;     
+        font-size: 0.8em; 
+        color: $main-dark;    
     }
 
     .nav-link:hover {
-        border: 3px solid $main-blue;
-        border-radius: 50px;
-        color: $main-dark;
+        color: $main-pink;
+    }
+
+    .fixed-top.scrolled {
+        background-color: $main-pink !important;
+        transition: background-color 0.5s linear;
+        .nav-link:hover {
+            color: $main-light;
+        }
     }
 }
 

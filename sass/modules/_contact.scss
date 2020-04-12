@@ -6,11 +6,12 @@
 
     h2 {
         color: $main-light;
+        margin-bottom: 20px;
     }
 }
 
 #contactForm {
-    padding: 60px 8%;
+    padding: 120px 8%;
     label {
         font-family: $main-font;
     }

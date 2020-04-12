@@ -1,12 +1,11 @@
 export default {
     template: `
-    <section class="container" id="aboutProjectSection">
+    <section class="container-xl" id="aboutProjectSection">
           <div class="row">
             <div class="col-12" id="aboutHeader">
                 <h1>get to know us</h1>
             </div>
           </div>
-
           <div class="row" id="aboutProject">
             <div class="col-12" id="aboutText1">
               <h3>What is project<span>play</span>?</h3>

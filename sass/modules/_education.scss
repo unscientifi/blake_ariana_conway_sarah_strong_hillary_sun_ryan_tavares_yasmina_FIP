@@ -1,0 +1,159 @@
+.educationNav {
+    z-index: 5;
+    padding-top: 75px;
+    padding-bottom: 5px;
+    background-color: $main-teal;
+    ul {
+        text-decoration: none;
+        display: inline-block;
+        background-color: $main-teal;
+        li {
+            display: inline-block;
+            margin: 0px 14px;
+            transition: .5s;
+            a {
+                cursor: pointer;
+            }
+        }
+
+        li:hover {
+            color: $main-light;
+        }
+    }
+}
+
+#vidBox {
+    width: 100%;
+    background-color: $main-dark;
+    video {
+        width: 100%;
+    }
+}
+
+.infoTitle {
+    text-transform: lowercase;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    background-color: $main-teal;
+    h2 {
+        font-size: 3em;
+        text-align: center;
+    }
+}
+
+.educationInfo {
+    h3 {
+        background-color: $main-teal;
+        text-align: center;
+        padding: 3%;
+    }
+    p {
+        padding: 3%;
+        color: black;
+    }
+    a { 
+        padding: 3%;
+        font-family: $main-font;
+        color: $main-dark;
+        text-align: center;
+        transition: .5s;
+    }
+    a:hover {
+        color: $main-teal;
+    }
+}
+
+.safePage {
+    .infoTitle {
+        background-color: $main-pink;
+    }
+    .educationInfo {
+        h3 {
+            background-color: $main-pink;
+        }
+    }
+}
+
+.stigmaPage {
+    .infoTitle {
+        background-color: $main-yellow;
+    }
+    .educationInfo {
+        h3 {
+            background-color: $main-yellow;
+        }
+    }
+}
+
+.generalPage {
+    .infoTitle {
+        background-color: $main-blue;
+        h2 {
+            color: $main-light;
+        }
+    }
+    .educationInfo {
+        h3 {
+            background-color: $main-blue;
+            color: $main-light;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) { 
+    .educationInfo {
+        h3 {
+            text-align: left;
+            padding: 3%;
+        }
+        a { 
+            padding: 3%;
+            font-family: $main-font;
+            color: $main-dark;
+            text-align: center;
+            transition: .5s;
+        }
+        a:hover {
+            color: $main-teal;
+        }
+    }
+    .testingPage {
+        .educationInfo {
+            border-bottom: solid 3px $main-teal;
+            h3 {
+                color: $main-teal;
+                background-color: $main-light;
+            }
+        }
+    }
+
+    .safePage {
+        .educationInfo {
+            border-bottom: solid 3px $main-pink;
+            h3 {
+                color: $main-pink;
+                background-color: $main-light;
+            }
+        }
+    }
+    
+    .stigmaPage {
+        .educationInfo {
+            border-bottom: solid 3px $main-yellow;
+            h3 {
+                color: $main-yellow;
+                background-color: $main-light;
+            }
+        }
+    }
+    
+    .generalPage {
+        .educationInfo {
+            border-bottom: solid 3px $main-blue;
+            h3 {
+                color: $main-blue;
+                background-color: $main-light;
+            }
+        }
+    }
+}

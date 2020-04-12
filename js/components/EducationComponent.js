@@ -10,11 +10,10 @@ export default {
     template: `
     <section>
         <NavComponent/>
-        <h1>Title</h1>
-        <nav>
-            <ul>
+        <nav class="educationNav container-xl fixed-top text-center">
+            <ul class="navbar-nav">
                 <li v-for="topic in topics" @click="switchTopic(topic.component)">
-                    <h3>{{ topic.title }}</h3>
+                    <a>{{ topic.title }}</a>
                 </li>
             </ul>
         </nav>
@@ -26,7 +25,7 @@ export default {
 
     data: function() {
         return {
-            activeComponent: SmartComponent,
+            activeComponent: GeneralComponent,
             topics: [
                 { title: "get the facts", component: GeneralComponent },
                 { title: "play safe", component: SafeComponent },
