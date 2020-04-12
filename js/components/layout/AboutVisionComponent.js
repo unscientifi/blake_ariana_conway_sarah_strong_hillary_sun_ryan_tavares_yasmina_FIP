@@ -14,9 +14,9 @@ export default {
         return {
             vision: [
                 {icon: "voice.svg", title: "Voice", alt: "..."},
-                {icon: "education.svg", title: "Knowledge", alt: "graphic of an open book"},
-                {icon: "home.svg", title: "Home", alt: "..."},
-                {icon: "hope.svg", title: "Hope", alt: "..."},
+                {icon: "knowledge.svg", title: "Knowledge", alt: "graphic of an open book"},
+                {icon: "home.svg", title: "Home", alt: "graphic of a house"},
+                {icon: "hope.svg", title: "Hope", alt: "graphic of two hands under a ribbon"},
             ]
         }
     },
