@@ -20,6 +20,7 @@ export default {
             <div class="col-12 col-md-6 p-0" :class="item.orderText">
                 <h3>{{ item.title }}</h3>
                 <p>{{ item.text }}</p>
+                <p>{{ item.text2 }}</p>
                 <a target="_blank" :href="item.link">{{ item.linkText }}</a>
             </div>
             <div class="col-12 col-md-6" :class="item.orderImg">
@@ -33,36 +34,48 @@ export default {
         return {
             fair: [
                     {
-                        title: "fair 1", 
-                        text: "This paragraph is about why HIV and Hep C testing are important and why you should get tested. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.", 
-                        graphic: "eggplant.svg", 
-                        alt: "graphic of an eggplant",
+                        title: "Stop the stigma", 
+                        text: "There is a lot of history and stigma associated with HIV and AIDS, most of which can be debunked and properly explained with a quick and easy open discussion. Let's dive right into some common misconceptions about the disease and work towards a more inclusive, supportive and communicative future for those living with HIV/AIDS.", 
+                        graphic: "...", 
+                        alt: "...",
                         orderImg: "order-md-2",
                         orderText: "order-md-1",
                     },
                     {
-                        title: "fair 2", 
-                        text: "Testing is easy! This paragraph explains the process of testing so you know what to expect and can eliminate any fears that might be holding you back. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.", 
-                        graphic: "safesexconvo.svg", 
-                        alt: "graphic of a conversation about safe sex",
+                        title: "Myth #1", 
+                        text: "Myth: You can catch HIV/AIDS from casual physical contact with someone who is infected.", 
+                        text2: "Explanation: Hugging, hand holding, kissing, and even sharing foods with someone who has HIV/AIDS cannot pass on the virus. HIV can only be transmitted through the following five bodily fluids: Blood, Semen, Anal fluids/mucous, Vaginal fluids, and Breast milk.",
+                        graphic: "...", 
+                        alt: "...",
                         orderImg: "order-md-1",
                         orderText: "order-md-2",
                     },
                     {
-                        title: "fair 3", 
-                        text: "Testing is easy! This paragraph explains the process of testing so you know what to expect and can eliminate any fears that might be holding you back. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.", 
-                        graphic: "safesexconvo.svg", 
-                        alt: "graphic of a conversation about safe sex",
+                        title: "Myth #2", 
+                        text: "Myth: HIV/AIDS is a 'gay' or 'LGBT' disease.", 
+                        text2: "Explanation: Unfortunately HIV/AIDS has a negative association with gay and lesbian individuals, even going so far as to be labelled the 'LGBT disease'. The HIV/AIDS disease does not discriminate against anyone, regardless of your sexual orientation, age, or race.",
+                        graphic: "...", 
+                        alt: "...",
                         orderImg: "order-md-2",
                         orderText: "order-md-1",
                     },
                     {
-                        title: "fair 4", 
-                        text: "Testing is easy! This paragraph explains the process of testing so you know what to expect and can eliminate any fears that might be holding you back. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.", 
-                        graphic: "safesexconvo.svg", 
-                        alt: "graphic of a conversation about safe sex",
+                        title: "Myth #3", 
+                        text: "Myth: I'm in a monogamous relationship so I don't have to worry about HIV.", 
+                        text2: "Explanation: It is still important to get tested for HIV even if you are in a monogamous relationship. According to the latest estimates, 68 percent of new HIV transmissions among gay and bisexual men occur in the context of a primary relationship. Be sure to talk to your partner(s) about your sexual health practices and theirs.",
+                        graphic: "...", 
+                        alt: "...",
                         orderImg: "order-md-1",
                         orderText: "order-md-2",
+                    },
+                    {
+                        title: "Myth #4", 
+                        text: "Myth: HIV/AIDS is a disease that is incurable and will end in death.", 
+                        text2: "Explanation: HIV is a treatable, long-term medical condition so long as it is detected in its early stages. A person living with HIV today can expect to lead a long and healthy life if they consistently take their medication.",
+                        graphic: "...", 
+                        alt: "...",
+                        orderImg: "order-md-2",
+                        orderText: "order-md-1",
                     },
                 
             ],
