@@ -17,7 +17,7 @@ export default {
                 <p>Our focus areas include promoting methods of safe sex in order to prevent the spreading of STIs, encouraging HIV testing, and educating about HIV/AIDS to help stop the stigma.</p>
             </div>
             <div class="col-12 order-sm-2 order-md-1 col-md-6">
-                <img src="images/graphic_people1.svg" class="center" alt="...">
+                <img src="images/graphic_people3.svg" class="center" alt="graphic of a couple holding a condom">
                 <div class="circle show-on-scroll right">.</div>
             </div>
           </div>

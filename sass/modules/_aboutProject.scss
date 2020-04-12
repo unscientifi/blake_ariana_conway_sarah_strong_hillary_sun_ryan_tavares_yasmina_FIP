@@ -28,6 +28,70 @@
 
     .circle {
         margin: 30px 0;
-        background-color: $main-pink;
+        background-color: $main-yellow;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    #aboutProject {
+        img {
+            width: 80%;
+        }
+        .circle {
+            margin: 50px 0;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #aboutProject {
+        #aboutText1 {
+            margin-bottom: 50px;
+        }
+    
+        img {
+            margin-top: 30px;
+            position: absolute;
+            width: 90%;
+            left: 0;
+            z-index: 4;
+        }
+    
+        .circle {
+            background-color: $main-yellow;
+            width: 300px;
+            height: 300px;
+
+        }
+    }
+}
+
+@media screen and (min-width: 992px) { 
+    #aboutProject {
+        text-align: left;
+    
+        img {
+            margin-top: 10px;
+            width: 100%;
+        }
+    
+        .circle {
+            width: 400px;
+            height: 400px;
+            margin-top: 0px;
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) { 
+    #aboutProject {
+        #aboutText1 {
+            margin-bottom: 60px;
+            margin-top: 30px;
+        }
+        .circle {
+            margin-bottom: 100px;
+
+        }
     }
 }
