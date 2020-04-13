@@ -40,30 +40,25 @@ function login($username, $password, $ip){
                     ':id'=>$id
                 )
             );
-
-            $user = array();
-
-            $user['id'] = $found_user['user_id'];
-            $user['avatar'] = $found_user['user_avatar'];
-            $user['uname'] = $found_user['user_name'];
-
-            return json_encode($user);
         }
 
+        if(isset($id)){
+            redirect_to('index.php');
+        }
     } else {
-        //User does not exist
+            //User does not exist
         $message = 'User does not exist';
+    } 
         return $message;
-    }    
 }
 
 function confirm_logged_in(){
     if(!isset($_SESSION['user_id'])){
-        redirect_to('index.php');
+        redirect_to('admin_login.php');
     }
 }
 
 function logout(){
     session_destroy();
-    redirect_to('/');
+    redirect_to('admin_login.php');
 }

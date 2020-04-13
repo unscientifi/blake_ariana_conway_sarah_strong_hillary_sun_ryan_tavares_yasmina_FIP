@@ -38,5 +38,6 @@ if(isset($_POST['submit'])){
         <input type="email" name="email" value=""><br><br>
         <button name="submit">Create User</button>
     </form>
+    <a href="index.php">Back to dashboard</a>
 </body>
 </html>
