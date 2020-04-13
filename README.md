@@ -14,16 +14,19 @@ Project Play takes a serious topic and aims to make it fun and engaging to learn
 * [Bootstrap](https://getbootstrap.com) - Responsive Front-End Framework
 * [Vue.js](https://vuejs.org/) - Progressive JavaScript Framework
 * [Sass](https://sass-lang.com/) - Syntactically Awesome Style Sheets
+* [PHP](https://www.php.net/) - Programming Language
 
 ## Things We Wanted to Achieve
 - [x] Responsive website built with Vue
-- [x] Videos
+- [x] Include videos on website
+- [x] Back-end user login system
+- [x] User dashboard which includes editing information, creating and deleting a user
 
 ## Installation
-Open Terminal in your computer and change to your htdocs directory.
+Open Terminal on your computer and change your directory to htdocs.
 
 ```
-$ cd (locate to htdocs)
+$ cd (locate to htdocs on your computer)
 ```
 
 Clone this repository to your local machine.
@@ -46,6 +49,6 @@ This project is licensed under the terms of the MIT license.
 * Fonts (https://fonts.google.com/)
 * Graphics (created by team)
 * Mockups (https://www.mockupworld.co/all-mockups/)
-* Audio (https://www.fesliyanstudios.com/royalty-free-music/downloads-c/edm-dance-music/40)
+* Audio (https://www.fesliyanstudios.com/royalty-free-music/downloads-c/edm-dance-music/40 and https://edmroyaltyfree.net/)
 * Trevor Van Rys (Authoring Professor)
 * Banglanfeng Pan (PHP and Back-End Professor)
