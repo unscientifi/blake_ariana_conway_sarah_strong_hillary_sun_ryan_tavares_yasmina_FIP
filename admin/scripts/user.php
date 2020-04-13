@@ -48,27 +48,11 @@ function getSingleUser($id){
 function getAllUsers(){
     $pdo = Database::getInstance()->getConnection();
 
-    $get_user_query = 'SELECT * FROM tbl_user';
-    $get_user_set = $pdo->prepare($get_user_query);
-    $get_user_result = $get_user_set->execute();
+    $get_all_query = 'SELECT * FROM tbl_user';
+    $get_users_result = $pdo->query($get_all_query);
 
-    $users = array();
-
-    if ($get_user_result) {
-        while($user = $get_user_set->fetch(PDO::FETCH_ASSOC)) {
-            // parse all the users' info like we did for a single and pass them 
-            // into the users array
-
-            $currentuser = array();
-
-            $currentuser['id'] = $user['user_id'];
-            $currentuser['avatar'] = $user['user_avatar'];
-            $currentuser['uname'] = $user['user_name'];
-
-            $users[] = $currentuser;
-        }
-
-        return json_encode($users);
+    if ($get_users_result) {
+        return $get_users_result;
     } else {
         return 'There was a problem getting the users';
     }

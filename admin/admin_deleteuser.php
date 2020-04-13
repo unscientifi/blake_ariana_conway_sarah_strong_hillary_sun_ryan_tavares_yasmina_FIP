@@ -25,7 +25,7 @@
     <title>Delete User</title>
 </head>
 <body>
-    <h2>Time to delete some users...</h2>
+    <h2>Delete User</h2>
     <?php echo !empty($message)?$message:'';?>
     <table>
         <thead>
@@ -47,5 +47,6 @@
         <?php endwhile;?>
         </tbody>
     </table>
+    <a href="index.php">Back to dashboard</a>
 </body>
 </html>

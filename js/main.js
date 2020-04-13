@@ -3,12 +3,6 @@ import AboutComponent from "./components/AboutComponent.js";
 import EducationComponent from "./components/EducationComponent.js";
 import ContactComponent from "./components/ContactComponent.js";
 
-import LoginComponent from './components/LoginComponent.js';
-import UserHomeComponent from './components/UserHomeComponent.js';
-import UserEditComponent from './components/UserEditComponent.js';
-import UserCreateComponent from './components/UserCreateComponent.js';
-import UserDeleteComponent from './components/UserDeleteComponent.js';
-
 (() => {
     let router = new VueRouter({
         routes: [
@@ -16,11 +10,6 @@ import UserDeleteComponent from './components/UserDeleteComponent.js';
             { path: "/about", name: "about", component: AboutComponent },
             { path: "/education", name: "education", component: EducationComponent, props: true },
             { path: "/contact", name: "contact", component: ContactComponent },
-            { path: "/login", name: "login", component: LoginComponent },
-            { path: "/userhome", name: "userhome", component: UserHomeComponent, props: true },
-            { path: "/useredit", name: "useredit", component: UserEditComponent }, 
-            { path: "/usercreate", name: "usercreate", component: UserCreateComponent },
-            { path: "/userdelete", name: "userdelete", component: UserDeleteComponent }
         ]
     });
 
@@ -46,7 +35,7 @@ import UserDeleteComponent from './components/UserDeleteComponent.js';
         
               logout() {
                 // push user back to login page
-                this.$router.push({ path: "/login" });
+                this.$router.push({ name: "login" });
                 this.authenticated = false;
               }
         },
