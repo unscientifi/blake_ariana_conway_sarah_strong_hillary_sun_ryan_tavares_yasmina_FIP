@@ -38,9 +38,9 @@ $ git clone https://github.com/unscientifi/blake_ariana_conway_sarah_strong_hill
 Open the project through your localhost. Admin username is '123' and password is '123'.
 
 ## Important Information
-If viewing on Mac, under connect.php, make sure to make the private password 'root'.
+If viewing on Mac, under config/database.php, make sure to make the private password 'root'.
 
-If viewing on Windows, under connect.php, make sure to have the private password section blank.
+If viewing on Windows, under config/database.php, make sure to have the private password section blank.
 
 ## License
 This project is licensed under the terms of the MIT license.
