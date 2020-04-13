@@ -45,8 +45,8 @@ export default {
                     },
                     {
                         title: "What is Hepatitis C?", 
-                        text: "Hepatitis C (Hep C) is a chronic liver disease caused by the Hepatitis C virus (HCV). HCV causes inflammation and scarring of the liver. Currently there is no vaccine for Hepatitis C.",
-                        text2: "Hepatitis C is only passed through blood. The blood of a person living with the Hepatitis C virus must enter your bloodstream for you to contract HCV. Hepatitus C is NOT spread through any other bodily fluids.", 
+                        text: "Hepatitis C is a chronic liver disease caused by the Hepatitis C virus (HCV). HCV causes inflammation and scarring of the liver. Currently there is no vaccine for Hepatitis C.",
+                        text2: "Hepatitis C is only passed through blood. The blood of a person living with the Hepatitis C virus must enter your bloodstream for you to contract HCV. Hepatitis C is NOT spread through any other bodily fluids.", 
                         graphic: "getfacts3.svg", 
                         alt: "graphic of Hep-C molecules in the blood",
                         orderImg: "order-md-2",

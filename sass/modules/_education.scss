@@ -52,7 +52,7 @@
         color: black;
     }
     a { 
-        padding: 3%;
+        padding-left: 8%;
         font-family: $main-font;
         color: $main-dark;
         text-align: center;
@@ -116,6 +116,10 @@
             margin-top: 70px;
             margin-bottom: 40px;
             margin-left: 0px;
+        }
+        a { 
+            font-size: 1.2em;
+            padding-left: 0%;
         }
     }
     .testingPage {
