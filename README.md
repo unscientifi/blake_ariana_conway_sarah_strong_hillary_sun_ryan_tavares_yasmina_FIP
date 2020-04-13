@@ -18,6 +18,25 @@ This is the final integrated project for semester two at Fanshawe College. The i
 - [x] Videos
 
 ## Installation
+Open Terminal in your computer and change to your htdocs directory.
+
+```
+$ cd (locate to htdocs)
+```
+
+Clone this repository to your local machine.
+
+```
+$ git clone https://github.com/unscientifi/blake_ariana_conway_sarah_strong_hillary_sun_ryan_tavares_yasmina_FIP.git
+```
+
+Open the project through your localhost. Admin username is '123' and password is '123'.
+
+## Important Information
+If viewing on Mac, under connect.php, make sure to make the private password 'root'.
+
+If viewing on Windows, under connect.php, make sure to have the private password section blank.
+
 
 ## Acknowledgements
 * Fonts (add link here)
