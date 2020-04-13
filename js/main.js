@@ -5,6 +5,9 @@ import ContactComponent from "./components/ContactComponent.js";
 
 import LoginComponent from './components/LoginComponent.js';
 import UserHomeComponent from './components/UserHomeComponent.js';
+import UserEditComponent from './components/UserEditComponent.js';
+import UserCreateComponent from './components/UserCreateComponent.js';
+import UserDeleteComponent from './components/UserDeleteComponent.js';
 
 (() => {
     let router = new VueRouter({
@@ -14,7 +17,10 @@ import UserHomeComponent from './components/UserHomeComponent.js';
             { path: "/education", name: "education", component: EducationComponent, props: true },
             { path: "/contact", name: "contact", component: ContactComponent },
             { path: "/login", name: "login", component: LoginComponent },
-            { path: "/userhome", name: "userhome", component: UserHomeComponent, props: true }
+            { path: "/userhome", name: "userhome", component: UserHomeComponent, props: true },
+            { path: "/useredit", name: "useredit", component: UserEditComponent }, 
+            { path: "/usercreate", name: "usercreate", component: UserCreateComponent },
+            { path: "/userdelete", name: "userdelete", component: UserDeleteComponent }
         ]
     });
 
