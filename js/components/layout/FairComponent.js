@@ -64,7 +64,7 @@ export default {
                         text: "Myth: I'm in a monogamous relationship so I don't have to worry about HIV.", 
                         text2: "Explanation: It is still important to get tested for HIV even if you are in a monogamous relationship. According to the latest estimates, 68 percent of new HIV transmissions among gay and bisexual men occur in the context of a primary relationship. Be sure to talk to your partner(s) about your sexual health practices and theirs.",
                         graphic: "fair4.svg", 
-                        alt: "...",
+                        alt: "graphic of a safe that says 'taken'",
                         orderImg: "order-md-1",
                         orderText: "order-md-2",
                     },
